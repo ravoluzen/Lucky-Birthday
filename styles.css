@@ -1,0 +1,41 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    background: rgb(32, 32, 32);
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 2em;
+    text-align: left;
+}
+
+input, button{
+    font-size: 2em;
+    padding: 10px;
+    margin: 0 0 1em 0;
+    width: 15em;
+    border: none;
+    border-radius: 5px;
+    background: rgb(68, 68, 255);
+    color: white;
+}
+
+#check-btn{
+    cursor: pointer;    
+}
+
+#result{
+    font-size: 3em;
+}
